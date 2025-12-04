@@ -1221,8 +1221,8 @@ public class GoogleAppsConnector implements Connector, CreateOp, DeleteOp, Schem
                     attributesToGet.add(attribute.substring(0, l));
                 }
             }
+            attributesToGet.add(PHOTO_ATTR);
         }
-        attributesToGet.add(PHOTO_ATTR);
         return attributesToGet;
     }
 
